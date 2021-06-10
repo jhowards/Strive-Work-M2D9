@@ -34,6 +34,7 @@ Make sure you check the documentation before creting anything custom.
     <style>
       /* PREVIOUS CODE */
     </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <script
@@ -125,8 +126,27 @@ Make sure you check the documentation before creting anything custom.
       
   
       <div class="container pt-4" id="albums">
-        <div class="container mb-3"><h2>Albums</h2></div>
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
+        <div class="container mb-3 pl-0"><h2>Favourite Albums</h2></div>
+        <div class="container d-flex">
+            <h4 class="mr-2 ">Genres:</h4>
+            <button type="button" class="btn btn-primary mx-2">
+                Pop <span class="badge badge-light">4</span>
+              </button>
+              <button type="button" class="btn btn-primary mx-2">
+                Rock <span class="badge badge-light">2</span>
+              </button>
+              <button type="button" class="btn btn-primary mx-2">
+                Hip-Hop <span class="badge badge-light">1</span>
+              </button>
+              <button type="button" class="btn btn-primary mx-2">
+                R&B <span class="badge badge-light">1</span>
+              </button>
+              
+        </div>
+        
+        
+        
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 mt-3">
           <div class="col mb-3">
             <div class="card text-white bg-dark mb-3">
               <img
@@ -134,11 +154,11 @@ Make sure you check the documentation before creting anything custom.
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Starboy</h5>
-                <p class="card-text">The Weeknd</p>
+              <div class="card-body ">
+                <h5 class="card-title">Starboy <span class="badge badge-primary ml-5">R&B</span></h5>
+                <p class="card-text">The Weeknd </p>
                 <div class="container">
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 spotbtn"
                     >Spotify
                     <span
                       class="iconify"
@@ -146,7 +166,7 @@ Make sure you check the documentation before creting anything custom.
                       data-inline="false"
                     ></span
                   ></a>
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 tidalbtn"
                     >Tidal
                     <span
                       class="iconify"
@@ -165,7 +185,7 @@ Make sure you check the documentation before creting anything custom.
                 <h5 class="card-title">Starboy</h5>
                 <p class="card-text">The Weeknd</p>
                 <div class="container">
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 spotbtn"
                     >Spotify
                     <span
                       class="iconify"
@@ -173,7 +193,7 @@ Make sure you check the documentation before creting anything custom.
                       data-inline="false"
                     ></span
                   ></a>
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 tidalbtn"
                     >Tidal
                     <span
                       class="iconify"
@@ -192,7 +212,7 @@ Make sure you check the documentation before creting anything custom.
                 <h5 class="card-title">Starboy</h5>
                 <p class="card-text">The Weeknd</p>
                 <div class="container">
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 spotbtn"
                     >Spotify
                     <span
                       class="iconify"
@@ -200,7 +220,7 @@ Make sure you check the documentation before creting anything custom.
                       data-inline="false"
                     ></span
                   ></a>
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 tidalbtn"
                     >Tidal
                     <span
                       class="iconify"
@@ -219,7 +239,7 @@ Make sure you check the documentation before creting anything custom.
                 <h5 class="card-title">Starboy</h5>
                 <p class="card-text">The Weeknd</p>
                 <div class="container">
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 spotbtn"
                     >Spotify
                     <span
                       class="iconify"
@@ -227,7 +247,7 @@ Make sure you check the documentation before creting anything custom.
                       data-inline="false"
                     ></span
                   ></a>
-                  <a href="#" class="btn btn-primary mb-2"
+                  <a href="#" class="btn btn-primary mb-2 tidalbtn"
                     >Tidal
                     <span
                       class="iconify"
@@ -246,7 +266,7 @@ Make sure you check the documentation before creting anything custom.
                   <h5 class="card-title">Starboy</h5>
                   <p class="card-text">The Weeknd</p>
                   <div class="container">
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 spotbtn"
                       >Spotify
                       <span
                         class="iconify"
@@ -254,7 +274,7 @@ Make sure you check the documentation before creting anything custom.
                         data-inline="false"
                       ></span
                     ></a>
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 tidalbtn"
                       >Tidal
                       <span
                         class="iconify"
@@ -273,7 +293,7 @@ Make sure you check the documentation before creting anything custom.
                   <h5 class="card-title">Starboy</h5>
                   <p class="card-text">The Weeknd</p>
                   <div class="container">
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 spotbtn"
                       >Spotify
                       <span
                         class="iconify"
@@ -281,7 +301,7 @@ Make sure you check the documentation before creting anything custom.
                         data-inline="false"
                       ></span
                     ></a>
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 tidalbtn"
                       >Tidal
                       <span
                         class="iconify"
@@ -300,7 +320,7 @@ Make sure you check the documentation before creting anything custom.
                   <h5 class="card-title">Starboy</h5>
                   <p class="card-text">The Weeknd</p>
                   <div class="container">
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 spotbtn"
                       >Spotify
                       <span
                         class="iconify"
@@ -308,7 +328,7 @@ Make sure you check the documentation before creting anything custom.
                         data-inline="false"
                       ></span
                     ></a>
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 tidalbtn"
                       >Tidal
                       <span
                         class="iconify"
@@ -327,7 +347,7 @@ Make sure you check the documentation before creting anything custom.
                   <h5 class="card-title">Starboy</h5>
                   <p class="card-text">The Weeknd</p>
                   <div class="container">
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 spotbtn"
                       >Spotify
                       <span
                         class="iconify"
@@ -335,7 +355,7 @@ Make sure you check the documentation before creting anything custom.
                         data-inline="false"
                       ></span
                     ></a>
-                    <a href="#" class="btn btn-primary mb-2"
+                    <a href="#" class="btn btn-primary mb-2 tidalbtn"
                       >Tidal
                       <span
                         class="iconify"
@@ -496,6 +516,25 @@ Make sure you check the documentation before creting anything custom.
     <!-- EXERCISE 3
         Foreach album in the favorite list, place the genre inside a badge
     -->
+
+    <!-- <span class="badge badge-primary ml-5">R&B</span> -->
+
+    <!-- <div class="container d-flex">
+        <h4 class="mr-2 ">Genres:</h4>
+        <button type="button" class="btn btn-primary mx-2">
+            Pop <span class="badge badge-light">4</span>
+          </button>
+          <button type="button" class="btn btn-primary mx-2">
+            Rock <span class="badge badge-light">2</span>
+          </button>
+          <button type="button" class="btn btn-primary mx-2">
+            Hip-Hop <span class="badge badge-light">1</span>
+          </button>
+          <button type="button" class="btn btn-primary mx-2">
+            Jazz <span class="badge badge-light">1</span>
+          </button>
+          
+    </div>    -->
 
     
 

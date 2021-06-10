@@ -1,0 +1,24 @@
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.iconify {
+  color: black;
+}
+
+.spotbtn {
+  max-height: 40px;
+  max-width: 100px;
+  padding: 8px;
+  line-height: 50%;
+  margin-right: 5px;
+}
+
+.tidalbtn {
+  max-height: 40px;
+  max-width: 85px;
+  padding: 8px;
+  line-height: 40%;
+}
