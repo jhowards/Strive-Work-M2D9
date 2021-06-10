@@ -155,3 +155,7 @@
   border-radius: 10px;
   margin-right: 10px;
 }
+
+.addtrackbtn:hover {
+  box-shadow: 3px 4px black;
+}
