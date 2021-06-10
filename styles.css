@@ -149,3 +149,9 @@
   width: 80%;
   border-radius: 10px;
 }
+
+.footernav {
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  margin-right: 10px;
+}
